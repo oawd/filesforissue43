@@ -1,0 +1,85 @@
+
+Processing the PDF with pdfCropMargins (version 1.0.9)...
+Python version: ('3', '10', '5')
+System type: Windows
+
+The input document's filename is:
+    C:\Users\useraccount\Downloads\pdf\Lorem_ipsum.pdf
+
+The output document's filename will be:
+    C:\Users\useraccount\Downloads\pdf\output.pdf
+
+The absolute pre-crops to be applied to each margin, in units of bp, are:
+    [0.0, 0.0, 0.0, 0.0]
+
+The percentages of margins to retain are:
+    [10.0, 10.0, 10.0, 10.0]
+
+The absolute offsets to be applied to each margin, in units of bp, are:
+    [0.0, 0.0, 0.0, 0.0]
+
+The uniform order statistics to apply to each margin, in units of bp, are:
+    []
+
+For the full page size, using values from the PDF box
+specified by the intersection of these boxes: ['m', 'c']
+
+The input document has 1 pages.
+
+The document's metadata, if set:
+
+   The Author attribute set in the input document is:
+      Sis1
+   The Creator attribute set in the input document is:
+      Microsoft® Office Word 2007
+   The Producer attribute set in the input document is:
+      Microsoft® Office Word 2007
+   The Subject attribute set in the input document is:
+      None
+   The Title attribute set in the input document is:
+      None
+
+All the pages of the document will be cropped.
+
+Original full page sizes, in PDF format (lbrt):
+	1   rot = 0 	 [0, 0, 612, 792]
+
+Copied these items from the document catalog:
+   /Type /Lang
+Skipped copy of these items from the document catalog:
+   /Pages
+
+The document was not previously cropped by pdfCropMargins.
+
+Writing out the PDF with the CropBox and MediaBox redefined.
+
+Rendering the PDF to images using the mupdf program,
+this may take a while...
+
+Analyzing the page images with Pillow to find bounding boxes,
+using the threshold 191.  Finding the bounding box for page:
+
+1 
+
+The bounding boxes are:
+	 1 	 [72.0, 279.0, 537.0, 712.0]
+
+Setting each page size to the smallest box bounding all the pages.
+
+All the selected pages will be uniformly cropped.
+
+The smallest delta values actually used to set the uniform cropping
+amounts (ignoring any '-m' skips and pages in ranges not cropped) were
+found on these pages, numbered from 1:
+    [1, 1, 1, 1]
+
+The final delta values themselves are:
+    [64.8, 251.1, 67.5, 72.0]
+
+New full page sizes after cropping, in PDF format (lbrt):
+	1	 [64.7999999999999971578290569595992565155029296875, 251.099999999999994315658113919198513031005859375, 544.5, 720]
+
+Writing the cropped PDF file.
+
+Finished this run of pdfCropMargins.
+
